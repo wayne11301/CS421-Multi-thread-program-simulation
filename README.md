@@ -2,7 +2,12 @@
 
 This program allow users to simulate a solution to producer-consumer problem by semaphores and mutex lock.
 
-There are 5 buffers and several producers and consumers. Each time a producer gets executed, 1 number will be placed in a buffer. On the other hand, if a consumer gets executed, a number will be removed. Producers and consumers will be forced to sleep 1-3 seconds after each execution.
+- Users can decide the number of producer and consumer threads
+- When a producer thread gets executed, 1 random number will be placed in a buffer. In contrast, when a consumer thread gets executed, 1 number will be removed
+- When the buffer is full, producer threads cannot be executed
+- When the buffer is empty, consumer threads cannot be executed
+- Producers and consumers will sleep 1-3 seconds after each execution
+
 
 ### Video explanation
 https://youtu.be/Qx3P2wazwI0?t=75
