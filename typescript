@@ -1,0 +1,539 @@
+Script started on 2020-11-11 14:11:32-08:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;wayne@wayne-virtual-machine: ~/Desktop[01;32mwayne@wayne-virtual-machine[00m:[01;34m~/Desktop[00m$ exitywprog4 30 4 21 1
+Main thread beginning
+Creating producer thread with id 139818855810816
+producer thread 139818855810816 sleeping for 2 seconds.
+
+Creating consumer thread with id 139818847418112
+Main thread sleeping for 30 seconds
+
+consumer thread 139818847418112 sleeping for 2 seconds.
+
+Insert_item inserted item 78 at position 0
+[78][empty][empty][empty][empty]  in = 1, out = 0
+producer thread 139818855810816 inserted value 78.
+producer thread 139818855810816 sleeping for 2 seconds.
+
+remove_item removed item 78 at position 0
+[empty][empty][empty][empty][empty]  in = 1, out = 1
+consumer thread 139818847418112 removed value 78.
+consumer thread 139818847418112 sleeping for 3 seconds.
+
+Insert_item inserted item 36 at position 1
+[empty][36][empty][empty][empty]  in = 2, out = 1
+producer thread 139818855810816 inserted value 36.
+producer thread 139818855810816 sleeping for 2 seconds.
+
+remove_item removed item 36 at position 1
+[empty][empty][empty][empty][empty]  in = 2, out = 2
+consumer thread 139818847418112 removed value 36.
+consumer thread 139818847418112 sleeping for 1 seconds.
+
+consuming error, buffer empty!
+consumer thread 139818847418112 sleeping for 1 seconds.
+
+Insert_item inserted item 22 at position 2
+[empty][empty][22][empty][empty]  in = 3, out = 2
+producer thread 139818855810816 inserted value 22.
+producer thread 139818855810816 sleeping for 3 seconds.
+
+remove_item removed item 22 at position 2
+[empty][empty][empty][empty][empty]  in = 3, out = 3
+consumer thread 139818847418112 removed value 22.
+consumer thread 139818847418112 sleeping for 2 seconds.
+
+consuming error, buffer empty!
+consumer thread 139818847418112 sleeping for 3 seconds.
+
+Insert_item inserted item 60 at position 3
+[empty][empty][empty][60][empty]  in = 4, out = 3
+producer thread 139818855810816 inserted value 60.
+producer thread 139818855810816 sleeping for 3 seconds.
+
+remove_item removed item 60 at position 3
+[empty][empty][empty][empty][empty]  in = 4, out = 4
+consumer thread 139818847418112 removed value 60.
+consumer thread 139818847418112 sleeping for 2 seconds.
+
+Insert_item inserted item 41 at position 4
+[empty][empty][empty][empty][41]  in = 0, out = 4
+producer thread 139818855810816 inserted value 41.
+producer thread 139818855810816 sleeping for 1 seconds.
+
+Insert_item inserted item 73 at position 0
+[73][empty][empty][empty][41]  in = 1, out = 4
+producer thread 139818855810816 inserted value 73.
+producer thread 139818855810816 sleeping for 2 seconds.
+
+remove_item removed item 41 at position 4
+[73][empty][empty][empty][empty]  in = 1, out = 0
+consumer thread 139818847418112 removed value 41.
+consumer thread 139818847418112 sleeping for 3 seconds.
+
+Insert_item inserted item 69 at position 1
+[73][69][empty][empty][empty]  in = 2, out = 0
+producer thread 139818855810816 inserted value 69.
+producer thread 139818855810816 sleeping for 1 seconds.
+
+Insert_item inserted item 30 at position 2
+[73][69][30][empty][empty]  in = 3, out = 0
+producer thread 139818855810816 inserted value 30.
+producer thread 139818855810816 sleeping for 3 seconds.
+
+remove_item removed item 73 at position 0
+[empty][69][30][empty][empty]  in = 3, out = 1
+consumer thread 139818847418112 removed value 73.
+consumer thread 139818847418112 sleeping for 3 seconds.
+
+Insert_item inserted item 63 at position 3
+[empty][69][30][63][empty]  in = 4, out = 1
+producer thread 139818855810816 inserted value 63.
+producer thread 139818855810816 sleeping for 2 seconds.
+
+remove_item removed item 69 at position 1
+[empty][empty][30][63][empty]  in = 4, out = 2
+consumer thread 139818847418112 removed value 69.
+consumer thread 139818847418112 sleeping for 2 seconds.
+
+Insert_item inserted item 36 at position 4
+[empty][empty][30][63][36]  in = 0, out = 2
+producer thread 139818855810816 inserted value 36.
+producer thread 139818855810816 sleeping for 3 seconds.
+
+remove_item removed item 30 at position 2
+[empty][empty][empty][63][36]  in = 0, out = 3
+consumer thread 139818847418112 removed value 30.
+consumer thread 139818847418112 sleeping for 1 seconds.
+
+remove_item removed item 63 at position 3
+[empty][empty][empty][empty][36]  in = 0, out = 4
+consumer thread 139818847418112 removed value 63.
+consumer thread 139818847418112 sleeping for 1 seconds.
+
+remove_item removed item 36 at position 4
+[empty][empty][empty][empty][empty]  in = 0, out = 0
+consumer thread 139818847418112 removed value 36.
+consumer thread 139818847418112 sleeping for 1 seconds.
+
+Insert_item inserted item 70 at position 0
+[70][empty][empty][empty][empty]  in = 1, out = 0
+producer thread 139818855810816 inserted value 70.
+producer thread 139818855810816 sleeping for 1 seconds.
+
+remove_item removed item 70 at position 0
+[empty][empty][empty][empty][empty]  in = 1, out = 1
+consumer thread 139818847418112 removed value 70.
+consumer thread 139818847418112 sleeping for 2 seconds.
+
+Insert_item inserted item 57 at position 1
+[empty][57][empty][empty][empty]  in = 2, out = 1
+producer thread 139818855810816 inserted value 57.
+producer thread 139818855810816 sleeping for 2 seconds.
+
+remove_item removed item 57 at position 1
+[empty][empty][empty][empty][empty]  in = 2, out = 2
+consumer thread 139818847418112 removed value 57.
+consumer thread 139818847418112 sleeping for 2 seconds.
+
+Insert_item inserted item 30 at position 2
+[empty][empty][30][empty][empty]  in = 3, out = 2
+producer thread 139818855810816 inserted value 30.
+producer thread 139818855810816 sleeping for 1 seconds.
+
+Insert_item inserted item 22 at position 3
+[empty][empty][30][22][empty]  in = 4, out = 2
+producer thread 139818855810816 inserted value 22.
+producer thread 139818855810816 sleeping for 3 seconds.
+
+remove_item removed item 30 at position 2
+[empty][empty][empty][22][empty]  in = 4, out = 3
+consumer thread 139818847418112 removed value 30.
+consumer thread 139818847418112 sleeping for 3 seconds.
+
+Main thread exiting
+]0;wayne@wayne-virtual-machine: ~/Desktop[01;32mwayne@wayne-virtual-machine[00m:[01;34m~/Desktop[00m$ ywprog4 30 1 1exit[Kywprog4 30 4 2
+Main thread beginning
+Creating producer thread with id 140381689972480
+producer thread 140381689972480 sleeping for 2 seconds.
+
+Creating producer thread with id 140381681579776
+Creating producer thread with id 140381673187072
+Creating producer thread with id 140381664794368
+Creating consumer thread with id 140381656401664
+Creating consumer thread with id 140381648008960
+Main thread sleeping for 30 seconds
+
+producer thread 140381664794368 sleeping for 2 seconds.
+
+producer thread 140381673187072 sleeping for 2 seconds.
+
+consumer thread 140381648008960 sleeping for 3 seconds.
+
+producer thread 140381681579776 sleeping for 2 seconds.
+
+consumer thread 140381656401664 sleeping for 1 seconds.
+
+consuming error, buffer empty!
+consumer thread 140381656401664 sleeping for 2 seconds.
+
+Insert_item inserted item 93 at position 0
+[93][empty][empty][empty][empty]  in = 1, out = 0
+producer thread 140381673187072 inserted value 93.
+producer thread 140381673187072 sleeping for 2 seconds.
+
+Insert_item inserted item 63 at position 1
+[93][63][empty][empty][empty]  in = 2, out = 0
+producer thread 140381664794368 inserted value 63.
+producer thread 140381664794368 sleeping for 2 seconds.
+
+Insert_item inserted item 91 at position 2
+[93][63][91][empty][empty]  in = 3, out = 0
+producer thread 140381681579776 inserted value 91.
+producer thread 140381681579776 sleeping for 2 seconds.
+
+Insert_item inserted item 50 at position 3
+[93][63][91][50][empty]  in = 4, out = 0
+producer thread 140381689972480 inserted value 50.
+producer thread 140381689972480 sleeping for 3 seconds.
+
+remove_item removed item 93 at position 0
+[empty][63][91][50][empty]  in = 4, out = 1
+consumer thread 140381648008960 removed value 93.
+consumer thread 140381648008960 sleeping for 2 seconds.
+
+remove_item removed item 63 at position 1
+[empty][empty][91][50][empty]  in = 4, out = 2
+consumer thread 140381656401664 removed value 63.
+consumer thread 140381656401664 sleeping for 1 seconds.
+
+Insert_item inserted item 27 at position 4
+[empty][empty][91][50][27]  in = 0, out = 2
+producer thread 140381664794368 inserted value 27.
+producer thread 140381664794368 sleeping for 2 seconds.
+
+remove_item removed item 91 at position 2
+[empty][empty][empty][50][27]  in = 0, out = 3
+consumer thread 140381656401664 removed value 91.
+consumer thread 140381656401664 sleeping for 3 seconds.
+
+Insert_item inserted item 37 at position 0
+[37][empty][empty][50][27]  in = 1, out = 3
+producer thread 140381673187072 inserted value 37.
+producer thread 140381673187072 sleeping for 1 seconds.
+
+Insert_item inserted item 12 at position 1
+[37][12][empty][50][27]  in = 2, out = 3
+producer thread 140381681579776 inserted value 12.
+producer thread 140381681579776 sleeping for 1 seconds.
+
+Insert_item inserted item 83 at position 2
+[37][12][83][50][27]  in = 3, out = 3
+producer thread 140381689972480 inserted value 83.
+producer thread 140381689972480 sleeping for 3 seconds.
+
+remove_item removed item 50 at position 3
+[37][12][83][empty][27]  in = 3, out = 4
+consumer thread 140381648008960 removed value 50.
+consumer thread 140381648008960 sleeping for 3 seconds.
+
+Insert_item inserted item 24 at position 3
+[37][12][83][24][27]  in = 4, out = 4
+producer thread 140381673187072 inserted value 24.
+producer thread 140381673187072 sleeping for 2 seconds.
+
+producer error, buffer full!
+producer thread 140381681579776 sleeping for 3 seconds.
+
+producer error, buffer full!
+producer thread 140381664794368 sleeping for 1 seconds.
+
+remove_item removed item 27 at position 4
+[37][12][83][24][empty]  in = 4, out = 0
+consumer thread 140381656401664 removed value 27.
+consumer thread 140381656401664 sleeping for 1 seconds.
+
+Insert_item inserted item 70 at position 4
+[37][12][83][24][70]  in = 0, out = 0
+producer thread 140381673187072 inserted value 70.
+producer thread 140381673187072 sleeping for 1 seconds.
+
+producer error, buffer full!
+producer thread 140381664794368 sleeping for 2 seconds.
+
+producer error, buffer full!
+producer thread 140381673187072 sleeping for 1 seconds.
+
+producer error, buffer full!
+producer thread 140381689972480 sleeping for 1 seconds.
+
+remove_item removed item 37 at position 0
+[empty][12][83][24][70]  in = 0, out = 1
+consumer thread 140381648008960 removed value 37.
+consumer thread 140381648008960 sleeping for 3 seconds.
+
+remove_item removed item 12 at position 1
+[empty][empty][83][24][70]  in = 0, out = 2
+consumer thread 140381656401664 removed value -1.
+consumer thread 140381656401664 sleeping for 3 seconds.
+
+Insert_item inserted item 74 at position 0
+[74][empty][83][24][70]  in = 1, out = 2
+producer thread 140381681579776 inserted value 74.
+producer thread 140381681579776 sleeping for 2 seconds.
+
+Insert_item inserted item 99 at position 1
+[74][99][83][24][70]  in = 2, out = 2
+producer thread 140381673187072 inserted value 99.
+producer thread 140381673187072 sleeping for 3 seconds.
+
+producer error, buffer full!
+producer thread 140381664794368 sleeping for 3 seconds.
+
+producer error, buffer full!
+producer thread 140381689972480 sleeping for 2 seconds.
+
+producer error, buffer full!
+producer thread 140381681579776 sleeping for 3 seconds.
+
+producer error, buffer full!
+producer thread 140381689972480 sleeping for 1 seconds.
+
+remove_item removed item 83 at position 2
+[74][99][empty][24][70]  in = 2, out = 3
+consumer thread 140381648008960 removed value 83.
+consumer thread 140381648008960 sleeping for 3 seconds.
+
+remove_item removed item 24 at position 3
+[74][99][empty][empty][70]  in = 2, out = 4
+consumer thread 140381656401664 removed value 24.
+consumer thread 140381656401664 sleeping for 3 seconds.
+
+Insert_item inserted item 97 at position 2
+[74][99][97][empty][70]  in = 3, out = 4
+producer thread 140381689972480 inserted value 97.
+producer thread 140381689972480 sleeping for 1 seconds.
+
+Insert_item inserted item 82 at position 3
+[74][99][97][82][70]  in = 4, out = 4
+producer thread 140381664794368 inserted value 82.
+producer thread 140381664794368 sleeping for 3 seconds.
+
+producer error, buffer full!
+producer thread 140381681579776 sleeping for 3 seconds.
+
+producer error, buffer full!
+producer thread 140381689972480 sleeping for 2 seconds.
+
+remove_item removed item 70 at position 4
+[74][99][97][82][empty]  in = 4, out = 0
+consumer thread 140381648008960 removed value 70.
+consumer thread 140381648008960 sleeping for 1 seconds.
+
+remove_item removed item 74 at position 0
+[empty][99][97][82][empty]  in = 4, out = 1
+consumer thread 140381656401664 removed value 74.
+consumer thread 140381656401664 sleeping for 2 seconds.
+
+Insert_item inserted item 6 at position 4
+[empty][99][97][82][6]  in = 0, out = 1
+producer thread 140381673187072 inserted value 6.
+producer thread 140381673187072 sleeping for 3 seconds.
+
+Insert_item inserted item 25 at position 0
+[25][99][97][82][6]  in = 1, out = 1
+producer thread 140381664794368 inserted value 25.
+producer thread 140381664794368 sleeping for 1 seconds.
+
+producer error, buffer full!
+producer thread 140381689972480 sleeping for 1 seconds.
+
+remove_item removed item 99 at position 1
+[25][empty][97][82][6]  in = 1, out = 2
+consumer thread 140381648008960 removed value 99.
+consumer thread 140381648008960 sleeping for 3 seconds.
+
+remove_item removed item 97 at position 2
+[25][empty][empty][82][6]  in = 1, out = 3
+consumer thread 140381656401664 removed value 97.
+consumer thread 140381656401664 sleeping for 1 seconds.
+
+Insert_item inserted item 35 at position 1
+[25][35][empty][82][6]  in = 2, out = 3
+producer thread 140381681579776 inserted value 35.
+producer thread 140381681579776 sleeping for 3 seconds.
+
+Insert_item inserted item 44 at position 2
+[25][35][44][82][6]  in = 3, out = 3
+producer thread 140381664794368 inserted value 44.
+producer thread 140381664794368 sleeping for 2 seconds.
+
+producer error, buffer full!
+producer thread 140381689972480 sleeping for 1 seconds.
+
+remove_item removed item 82 at position 3
+[25][35][44][empty][6]  in = 3, out = 4
+consumer thread 140381656401664 removed value 82.
+consumer thread 140381656401664 sleeping for 3 seconds.
+
+Insert_item inserted item 77 at position 3
+[25][35][44][77][6]  in = 4, out = 4
+producer thread 140381673187072 inserted value 77.
+producer thread 140381673187072 sleeping for 3 seconds.
+
+producer error, buffer full!
+producer thread 140381689972480 sleeping for 1 seconds.
+
+remove_item removed item 6 at position 4
+[25][35][44][77][empty]  in = 4, out = 0
+consumer thread 140381648008960 removed value 6.
+consumer thread 140381648008960 sleeping for 3 seconds.
+
+Insert_item inserted item 55 at position 4
+[25][35][44][77][55]  in = 0, out = 0
+producer thread 140381664794368 inserted value 55.
+producer thread 140381664794368 sleeping for 2 seconds.
+
+producer error, buffer full!
+producer thread 140381689972480 sleeping for 1 seconds.
+
+producer error, buffer full!
+producer thread 140381681579776 sleeping for 1 seconds.
+
+producer error, buffer full!
+producer thread 140381689972480 sleeping for 2 seconds.
+
+remove_item removed item 25 at position 0
+[empty][35][44][77][55]  in = 0, out = 1
+consumer thread 140381656401664 removed value 25.
+consumer thread 140381656401664 sleeping for 2 seconds.
+
+Insert_item inserted item 87 at position 0
+[87][35][44][77][55]  in = 1, out = 1
+producer thread 140381673187072 inserted value 87.
+producer thread 140381673187072 sleeping for 1 seconds.
+
+producer error, buffer full!
+producer thread 140381681579776 sleeping for 1 seconds.
+
+producer error, buffer full!
+producer thread 140381664794368 sleeping for 3 seconds.
+
+producer error, buffer full!
+producer thread 140381673187072 sleeping for 3 seconds.
+
+remove_item removed item 35 at position 1
+[87][empty][44][77][55]  in = 1, out = 2
+consumer thread 140381648008960 removed value 35.
+consumer thread 140381648008960 sleeping for 3 seconds.
+
+Insert_item inserted item 2 at position 1
+[87][2][44][77][55]  in = 2, out = 2
+producer thread 140381681579776 inserted value 2.
+producer thread 140381681579776 sleeping for 3 seconds.
+
+producer error, buffer full!
+producer thread 140381689972480 sleeping for 1 seconds.
+
+remove_item removed item 44 at position 2
+[87][2][empty][77][55]  in = 2, out = 3
+consumer thread 140381656401664 removed value 44.
+consumer thread 140381656401664 sleeping for 2 seconds.
+
+Insert_item inserted item 57 at position 2
+[87][2][57][77][55]  in = 3, out = 3
+producer thread 140381689972480 inserted value 57.
+producer thread 140381689972480 sleeping for 2 seconds.
+
+producer error, buffer full!
+producer thread 140381664794368 sleeping for 3 seconds.
+
+remove_item removed item 77 at position 3
+[87][2][57][empty][55]  in = 3, out = 4
+consumer thread 140381656401664 removed value 77.
+consumer thread 140381656401664 sleeping for 2 seconds.
+
+remove_item removed item 55 at position 4
+[87][2][57][empty][empty]  in = 3, out = 0
+consumer thread 140381648008960 removed value 55.
+consumer thread 140381648008960 sleeping for 1 seconds.
+
+Insert_item inserted item 90 at position 3
+[87][2][57][90][empty]  in = 4, out = 0
+producer thread 140381673187072 inserted value 90.
+producer thread 140381673187072 sleeping for 2 seconds.
+
+Insert_item inserted item 20 at position 4
+[87][2][57][90][20]  in = 0, out = 0
+producer thread 140381681579776 inserted value 20.
+producer thread 140381681579776 sleeping for 2 seconds.
+
+producer error, buffer full!
+producer thread 140381689972480 sleeping for 1 seconds.
+
+remove_item removed item 87 at position 0
+[empty][2][57][90][20]  in = 0, out = 1
+consumer thread 140381648008960 removed value 87.
+consumer thread 140381648008960 sleeping for 2 seconds.
+
+Insert_item inserted item 98 at position 0
+[98][2][57][90][20]  in = 1, out = 1
+producer thread 140381689972480 inserted value 98.
+producer thread 140381689972480 sleeping for 3 seconds.
+
+remove_item removed item 2 at position 1
+[98][empty][57][90][20]  in = 1, out = 2
+Insert_item inserted item 76 at position 1
+consumer thread 140381656401664 removed value 2.
+consumer thread 140381656401664 sleeping for 1 seconds.
+
+[98][76][57][90][20]  in = 2, out = 2
+producer thread 140381681579776 inserted value 76.
+producer thread 140381681579776 sleeping for 2 seconds.
+
+producer error, buffer full!
+producer thread 140381664794368 sleeping for 2 seconds.
+
+remove_item removed item 57 at position 2
+[98][76][empty][90][20]  in = 2, out = 3
+consumer thread 140381648008960 removed value 57.
+consumer thread 140381648008960 sleeping for 3 seconds.
+
+remove_item removed item 90 at position 3
+[98][76][empty][empty][20]  in = 2, out = 4
+consumer thread 140381656401664 removed value 90.
+consumer thread 140381656401664 sleeping for 1 seconds.
+
+Insert_item inserted item 82 at position 2
+[98][76][82][empty][20]  in = 3, out = 4
+producer thread 140381673187072 inserted value 82.
+producer thread 140381673187072 sleeping for 1 seconds.
+
+Insert_item inserted item 66 at position 3
+[98][76][82][66][20]  in = 4, out = 4
+producer thread 140381681579776 inserted value 66.
+producer thread 140381681579776 sleeping for 2 seconds.
+
+remove_item removed item 20 at position 4
+[98][76][82][66][empty]  in = 4, out = 0
+consumer thread 140381656401664 removed value 20.
+consumer thread 140381656401664 sleeping for 3 seconds.
+
+Insert_item inserted item 20 at position 4
+[98][76][82][66][20]  in = 0, out = 0
+producer thread 140381673187072 inserted value 20.
+producer thread 140381673187072 sleeping for 3 seconds.
+
+producer error, buffer full!
+producer thread 140381664794368 sleeping for 1 seconds.
+
+producer error, buffer full!
+producer thread 140381689972480 sleeping for 3 seconds.
+
+producer error, buffer full!
+producer thread 140381664794368 sleeping for 3 seconds.
+
+Main thread exiting
+]0;wayne@wayne-virtual-machine: ~/Desktop[01;32mwayne@wayne-virtual-machine[00m:[01;34m~/Desktop[00m$ exit
+exit
+
+Script done on 2020-11-11 14:13:19-08:00 [COMMAND_EXIT_CODE="0"]
