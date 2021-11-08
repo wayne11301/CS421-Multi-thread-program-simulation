@@ -9,3 +9,9 @@ https://youtu.be/Qx3P2wazwI0?t=75
 
 ### Output
 Please refer to the typescript file
+
+### Walkthough GIF
+
+<img src='test run.gif' title='test run' width='800' alt='test run' />
+
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
