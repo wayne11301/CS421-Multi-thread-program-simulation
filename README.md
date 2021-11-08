@@ -8,4 +8,4 @@ There are 5 buffers and several producers and consumers. Each time a producer ge
 https://youtu.be/Qx3P2wazwI0?t=75
 
 ### Output
-Please refer to typescript file
+Please refer to the typescript file
