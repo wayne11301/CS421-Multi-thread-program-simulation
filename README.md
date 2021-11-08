@@ -7,7 +7,7 @@ There are 5 buffers and several producers and consumers. Each time a producer ge
 ### Video explanation
 https://youtu.be/Qx3P2wazwI0?t=75
 
-### Output
+### Sample Output
 Please refer to the typescript file
 
 ### Walkthough GIF
